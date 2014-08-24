@@ -1,5 +1,5 @@
 /*
-Theme Name: WP Bootstrap
+TESTTheme Name: WP Bootstrap
 Theme URI: http://teamtreehouse.com/wordpress-bootstrap-theme-tutorial
 Description: A demo theme built to accompany the Treehouse blog post <a href="http://teamtreehouse.com/wordpress-bootstrap-theme-tutorial">How to Build a WordPress Theme with Bootstrap</a>.
 Author: Zac Gordon
