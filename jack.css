@@ -1,0 +1,11 @@
+div{
+	border:2px solid pink;
+}
+
+.amo_menu{
+	background-color:yellow;
+}
+
+.amo_menu li{
+	list-style: none;
+}
