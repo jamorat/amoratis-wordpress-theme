@@ -38,14 +38,13 @@ $(function(){
     <![endif]-->
   </head>
   <body>
-    <h1>Test bootflat</h1>
-        <a class="btn btn-primary">Flat button</a>
-    <h1><?php bloginfo('name'); ?></h1>
+    <h1><?php //bloginfo('name'); ?></h1>
+
     description <?php bloginfo('description'); ?>
     url <?php bloginfo('url'); ?>
     <div class="row">
       <div class="col-md-3 amo_menu">
-        <?php wp_nav_menu( array("container" => "nav", "container_class" => "amo_container", 'fallback_cb'     => 'header_menu','echo' => true)); ?>
+        <?php wp_nav_menu( array("container" => "nav", "container_class" => "amo_container", 'fallback_cb'     => 'header_menu','echo' => true,'items_wrap' => '<ul class="nav nav-pills nav-stacked">%3$s</ul>')); ?>
       </div>
       <div class="col-md-9">
           <?php 
