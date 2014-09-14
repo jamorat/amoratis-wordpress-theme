@@ -1,17 +1,58 @@
 div{
-	/* border:2px solid pink; */
-}
-
-.amo_menu{
-	background-color:white;
+	
 }
 
 .amo_menu li{
 	list-style: none;
-	/*border-top:1px solid grey;
-	border-bottom:1px solid grey;*/
 }
 
 .amo_content{
 	border-left:2px solid rgb(59, 175, 218);
 }
+
+.amo_github{
+  		display:none;
+}
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+	.amo_navbar{
+			border:0;
+		}
+
+	.amo_menu{
+		overflow:hidden;
+		padding:0;
+	}
+
+	.amo_menu_container{
+		background-color:white;
+	}
+
+	.navbar-header{
+		padding-left: 15px;
+	}
+
+	.navbar > .container .navbar-brand:hover{
+    	color:rgb(140,140,140);
+  	}
+
+  	.amo_github{
+  		display:inline;
+  		width:100%;
+  	}
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
