@@ -27,6 +27,7 @@ $(function(){
 </script>
     <!-- Bootstrap -->
     <link href="wp-content/themes/amoratis-wordpress-theme/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="wp-content/themes/amoratis-wordpress-theme/bootflat.github.io/bootflat/css/bootflat.css" rel="stylesheet">
     <link href="wp-content/themes/amoratis-wordpress-theme/jack.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -37,7 +38,8 @@ $(function(){
     <![endif]-->
   </head>
   <body>
-    
+    <h1>Test bootflat</h1>
+        <a class="btn btn-primary">Flat button</a>
     <h1><?php bloginfo('name'); ?></h1>
     description <?php bloginfo('description'); ?>
     url <?php bloginfo('url'); ?>
@@ -65,7 +67,10 @@ $(function(){
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="wp-content/themes/amoratis-wordpress-theme/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="wp-content/themes/amoratis-wordpress-theme/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="wp-content/themes/amoratis-wordpress-theme/bootflat.github.io/bootflat/js/icheck.min.js"></script>
+    <script src="wp-content/themes/amoratis-wordpress-theme/bootflat.github.io/bootflat/js/jquery.fs.selecter.min.js"></script>
+    <script src="wp-content/themes/amoratis-wordpress-theme/bootflat.github.io/bootflat/js/jquery.fs.stepper.min.js"></script>
     
   </body>
 </html>
