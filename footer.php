@@ -8,6 +8,7 @@
     <script src="<?php bloginfo( 'template_url' ); ?>/bootflat.github.io/bootflat/js/icheck.min.js"></script>
     <script src="<?php bloginfo( 'template_url' ); ?>/bootflat.github.io/bootflat/js/jquery.fs.selecter.min.js"></script>
     <script src="<?php bloginfo( 'template_url' ); ?>/bootflat.github.io/bootflat/js/jquery.fs.stepper.min.js"></script>
+    <script src="<?php bloginfo( 'template_url' ); ?>/js/jack.js"></script>
     This is an open source web theme created by Jack Amoratis. Fork on GitHub.
     <br>Or click here to download and use it on your own WordPress site.
   </body>
