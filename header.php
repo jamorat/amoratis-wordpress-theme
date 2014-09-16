@@ -7,14 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap 101 Template</title>
-
-   <script type='text/javascript'>//<![CDATA[ 
-$(window).load(function(){
-
-
-
-});//]]> 
-</script>
     <!-- Bootstrap -->
     <link href="<?php bloginfo( 'template_url' ); ?>/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
     <link href="<?php bloginfo( 'template_url' ); ?>/bootflat.github.io/bootflat/css/bootflat.css" rel="stylesheet">
@@ -46,7 +38,7 @@ $(window).load(function(){
                   <form method="get" id="searchform" action="<?php bloginfo('home'); ?>/">
 <div class="form-search search-only col-md-3">
   <i class="search-icon glyphicon glyphicon-search col-md-3"></i>
-  <input class="form-control search-query col-md-3" type="text"  placeholder="Search" name="s" id="s" />
+  <input class="form-control search-query col-md-3" type="text"  placeholder="Search" name="s" id="amo_main_search" />
 </div>
 <div style="clear:both;">
                   <?php wp_nav_menu( array("container" => "nav", "container_class" => "amo_container", 'fallback_cb'     => 'header_menu','echo' => true,'items_wrap' => '<ul class="nav nav-stacked">%3$s</ul>')); ?>
