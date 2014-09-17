@@ -36,9 +36,9 @@
                 </div>
                 <div style="clear:both;"  class="navbar-collapse collapse">
                   <form method="get" id="searchform" action="<?php bloginfo('home'); ?>/">
-<div class="form-search search-only col-md-3">
+<div class="form-search search-only">
   <i class="search-icon glyphicon glyphicon-search col-md-3"></i>
-  <input class="form-control search-query col-md-3" type="text"  placeholder="Search" name="s" id="amo_main_search" />
+  <input class="form-control search-query col-md-3" type="text"  placeholder="Search" name="s" id="s" />
 </div>
 <div style="clear:both;">
                   <?php wp_nav_menu( array("container" => "nav", "container_class" => "amo_container", 'fallback_cb'     => 'header_menu','echo' => true,'items_wrap' => '<ul class="nav nav-stacked">%3$s</ul>')); ?>
