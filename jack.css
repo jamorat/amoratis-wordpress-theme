@@ -1,13 +1,13 @@
 img{
-	max-width:100%;
+	width:300px;
 }
 
 .entry{
 	word-wrap:break-word;
 }
 
-div{
-	
+body{
+	padding-bottom: 25px;
 }
 
 .amo_menu li{
@@ -34,6 +34,15 @@ div{
 .row{
 		margin:0;
 	}
+
+#amo_description{
+	display:none;
+}
+
+.amo_search{
+	padding-left:15px;
+	padding-right:15px;
+}
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
@@ -73,6 +82,11 @@ div{
     	color:rgb(140,140,140);
   	}
 
+  	.amo_navbar{
+    	margin-left:0px;
+    	margin-right:0px;
+}
+
   	.amo_github{
   		display:inline;
   	}
@@ -80,6 +94,12 @@ div{
   	.amo_content{
 	border-left:2px solid rgb(59, 175, 218);
 	z-index:1000;
+	}
+
+	#amo_description{
+		display:block;
+		clear:both;
+		padding-bottom:10px;
 	}
 
 }
