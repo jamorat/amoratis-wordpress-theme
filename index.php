@@ -1,5 +1,4 @@
-<?php 
-require("header.php"); 
+<?php get_header();
           if ( have_posts() ) {
             while ( have_posts() ) {
               the_post(); 
@@ -12,6 +11,6 @@ require("header.php");
               //
             } // end while
           } // end if
-require("footer.php");
+get_footer();
           ?>
       
