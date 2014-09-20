@@ -51,6 +51,7 @@
         </div>
         <div class="amo_github">
           <img class="amo_github" src="<?php bloginfo( 'template_url' ); ?>/theme-images/Octocat.jpg">
+          <?php get_sidebar(); ?>
         </div>
       </div>
       <div class="col-md-9 amo_content">
