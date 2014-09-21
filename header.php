@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <?php do_action('wp_head'); ?>
     <title><?php bloginfo('name'); ?></title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap 101 Template</title>
     <!-- Bootstrap -->
-    <link href="<?php bloginfo( 'template_url' ); ?>/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
-    <link href="<?php bloginfo( 'template_url' ); ?>/bootflat.github.io/bootflat/css/bootflat.css" rel="stylesheet">
-    <link href="<?php bloginfo( 'template_url' ); ?>/jack.css" rel="stylesheet">
+   
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,8 +19,7 @@
     
   </head>
   <body <?php body_class();?>>
-</form>
-    <div class="row">
+    <div class="row"> 
       <div class="col-md-3 amo_menu"> 
           <div class="navbar navbar-inverse navbar-static-top amo_navbar">
               <div class="container amo_menu_container">
