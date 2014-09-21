@@ -32,7 +32,7 @@ function amo_styles()
  	wp_enqueue_style( 'amo_style_jack', get_template_directory_uri(). '/jack.css', false, '1.0', 'all');
  
 }
-add_action( 'wp_enqueue_styles', 'amo_styles' );
+add_action( 'wp_enqueue_scripts', 'amo_styles' );
 
 
 function amo_scripts()
