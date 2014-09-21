@@ -1,28 +1,30 @@
-$("#amo_main_search").keypress(function(event) {
+
+
+jQuery( document ).ready(function() {
+
+    jQuery("#amo_main_search").keypress(function(event) {
     if (event.which == 13) {
         event.preventDefault();
-        $("#searchform").submit();
+        jQuery("#searchform").submit();
     }
 });
 
-$( document ).ready(function() {
-    //alert("j");
-    //$( "p" ).text( "The DOM is now loaded and can be manipulated." );
-    $('img').each(function(){ 
-        $(this).removeAttr('width')
-        $(this).removeAttr('height');
+    
+    jQuery('img').each(function(){ 
+        jQuery(this).removeAttr('width')
+        jQuery(this).removeAttr('height');
         setMaxWidth();
     });
 
-    $('*[id^="attachment"]').each(function(){ 
-        $(this).removeAttr('width')
-        $(this).removeAttr('height');
+    jQuery('*[id^="attachment"]').each(function(){ 
+        jQuery(this).removeAttr('width')
+        jQuery(this).removeAttr('height');
     });
 
     function setMaxWidth() {
-    $( "img" ).css( "maxWidth", ( $( window ).width() * 0.7 | 0 ) + "px" );
-    $('*[class^="wp-image"]').css( "maxWidth", "100%");
-    $('*[id^="attachment"]').css( "maxWidth", "100%");
+    jQuery( "img" ).css( "maxWidth", ( jQuery( window ).width() * 0.7 | 0 ) + "px" );
+    jQuery('*[class^="wp-image"]').css( "maxWidth", "100%");
+    jQuery('*[id^="attachment"]').css( "maxWidth", "100%");
     }
 
 
