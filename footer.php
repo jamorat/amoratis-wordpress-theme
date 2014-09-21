@@ -1,14 +1,15 @@
 </div>
-    </div>
+    </div>here
+    <?php
+    wp_print_styles('amo_style_bootstrap');
+    wp_print_styles('amo_style_bootflat');
+    wp_print_styles('amo_style_jack');
+
+    ?>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="<?php bloginfo( 'template_url' ); ?>/bootstrap/dist/js/bootstrap.js"></script>
-    <script src="<?php bloginfo( 'template_url' ); ?>/bootflat.github.io/bootflat/js/icheck.min.js"></script>
-    <script src="<?php bloginfo( 'template_url' ); ?>/bootflat.github.io/bootflat/js/jquery.fs.selecter.min.js"></script>
-    <script src="<?php bloginfo( 'template_url' ); ?>/bootflat.github.io/bootflat/js/jquery.fs.stepper.min.js"></script>
-    <script src="<?php bloginfo( 'template_url' ); ?>/js/jack.js"></script>
+   
     This is a GPL open source WordPress theme created by Jack Amoratis. <a href="https://github.com/jamorat?tab=repositories">Download or fork on GitHub</a>.
   </body>
 </html>
